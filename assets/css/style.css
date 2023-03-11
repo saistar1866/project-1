@@ -1,0 +1,206 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* DESKTOP BANNER */
+.desktopbanner {
+    position: relative;
+    display: block;
+}
+
+.desktopbanner>video {
+    width: 100%;
+}
+
+.desktopbanner>header {
+    position: absolute;
+    top: 3%;
+    left: 0%;
+    width: 100%;
+}
+
+.desktopbanner>header>nav {
+    margin: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5 ), rgba(0, 0, 0, 0.5));
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.desktopbanner>header>nav>ul {
+    list-style-type: none;
+    float: right;
+}
+
+.desktopbanner>header>nav>ul>li {
+    display: inline-block;
+    padding: 25px;
+}
+
+.desktopbanner>header>nav>ul>li:hover {
+    background: #fff;
+}
+
+.desktopbanner>header>nav>ul>li:hover a {
+    color: #7f7f7f;
+}
+
+.desktopbanner>header>nav>ul>li>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.desktopbanner>header>nav>img {
+    height: 66px;
+}
+
+.desktopbanner>h1 {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px black;
+    color: #fff;
+    transition: 1s;
+}
+
+.desktopbanner>h1:hover {
+    transform: scale(1.1);
+}
+
+/* media banner */
+.tabbanner, .mobbanner{
+    display: none;
+}
+/* karnataka */
+.kardistlist{
+    text-align: center;
+}
+.kardistlist>h1, .karinfo>h1, .feedback>h1{
+    margin: 50px auto;
+    font-size: 30px;
+    transition: 1s;
+    color: #fff;
+    text-shadow: -1px -1px 2px #000, 3px 3px 3px #000;
+}
+.kardistlist>h1:hover, .karinfo>h1:hover, .feedback>h1:hover{
+    transform: scale(1.1);
+}
+.kardistlist>ul{
+    list-style-type: none;
+}
+.kardistlist>ul>li{
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+.kardistlist>ul>li:hover{
+    animation: karnataka 5s infinite;
+}
+@keyframes karnataka {
+    from{
+        background: url(../images/pexels-maxime-francis-2246476.jpg)no-repeat top;
+        background-size: 100%;
+        color: red;
+    }
+    to{
+        background: url(../images/pexels-maxime-francis-2246476.jpg)no-repeat bottom;
+        background-size: 100%;
+        color: yellow;
+    }
+}
+/* karntak info */
+.karinfo>h1, .feedback>h1{
+    text-align: center;
+}
+.karinfo>div{
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+.karinfo>div>p{
+    padding: 20px;
+    text-align: justify;
+    line-height: 2;
+    text-indent: 50px;
+    margin-bottom: 10PX;
+}
+.karinfo>div>p:last-child{
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+/* footer */
+footer{
+    background: linear-gradient(to right, #141e30, #243b55);
+    padding: 100px;
+    text-align: center;
+    color: #fff;
+}
+footer>p{
+    font-size: 20px;
+    font-weight: bold;
+}
+[class*="fa-square-"]{
+    transition: 1s;
+    margin: 10px;
+}
+[class*="fa-square-"]:hover{
+    transform: scale(2.2);
+}
+
+/* CSS GIRD CLASS */
+.col1{
+    width: 8.33%;
+
+}
+.col2{
+    width: 16.66%;
+}
+.col3{
+    width: 25%;
+}
+.col4{
+width: 33.33%;
+}
+.col5{
+    width: 41.66%;
+}
+.col6{
+    width: 50%;
+}
+.col7{
+    width: 58.33%;
+}
+.col8{
+    width: 66.66%;
+}
+.col9{
+    width: 75%;
+}
+.col10{
+    width: 83.33%;
+}
+.col11{
+    width: 91.66%;
+}
+.col12{
+    width: 100%;
+}
+[class*="col"]{
+    float: left;
+    padding: 10px;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+

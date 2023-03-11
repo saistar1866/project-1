@@ -1,0 +1,143 @@
+/* mobil */
+@media(max-width:768px) {
+    .desktopbanner, .tabbanner{
+        display: none;
+    }
+    .mobbanner{
+        display: block; 
+
+    }
+    [class*="col"]{
+        width: 100%;
+    }
+}
+
+
+/* tab */
+@media(min-width:768px) and (max-width:1200px) {
+
+
+    .desktopbanner,.mobbanner{
+        display: none;
+
+    }
+
+    .mobbanner {
+        display: block;
+        position: relative;
+    }
+
+    .mobbanner>header {
+        background: linear-gradient(to right, #2193b0, #6dd5ed);
+        padding: 10px;
+    }
+
+    .mobbanner>header>nav {
+        text-align: center;
+
+    }
+
+    .mobbanner>header>nav>ul {
+        list-style-type: none;
+    }
+
+    .mobbanner>header>nav>ul>li {
+        display: inline-block;
+        padding: 20px;
+        border-radius: 2px;
+    }
+
+    .mobbanner>header>nav>ul>li:hover {
+        background: #fff;
+    }
+
+    .mobbanner>header>nav>ul>li:hover a {
+        color: #2193b0;
+    }
+
+    .mobbanner>header>nav>ul>li>a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .mobbanner>video {
+        width: 100%;
+    }
+
+    .mobbanner>h1 {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        font-size: 55px;
+        color: #159957;
+        text-shadow: 3pc 3px 2px black;
+    }
+}
+/* tab */
+@media(min-width:768px) and (max-width:1200px) {
+
+
+    .desktopbanner,.mobbanner{
+        display: none;
+
+    }
+
+    .tabbanner {
+        display: block;
+        position: relative;
+    }
+
+    .mobbanner>header {
+        background: linear-gradient(to right, #2193b0, #6dd5ed);
+        padding: 10px;
+    }
+
+    .mobbanner>header>nav {
+        text-align: center;
+
+    }
+
+    .mobbanner>header>nav>ul {
+        list-style-type: none;
+    }
+
+    .mobbanner>header>nav>ul>li {
+        display: inline-block;
+        padding: 20px;
+        border-radius: 2px;
+    }
+
+    .mobbanner>header>nav>ul>li:hover {
+        background: #fff;
+    }
+
+    .mobbanner>header>nav>ul>li:hover a {
+        color: #2193b0;
+    }
+
+    .mobbanner>header>nav>ul>li>a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .mobbanner>video {
+        width: 100%;
+    }
+
+    .mobbanner>h1 {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        font-size: 55px;
+        color: #159957;
+        text-shadow: 3pc 3px 2px black;
+    }
+    [class*="col"]{
+        width: 100%;
+    }
+}
+
+/* TAB */
+@media(min-width:768px) and (max-width:1200px){
+
+}
